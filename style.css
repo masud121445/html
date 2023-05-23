@@ -1,0 +1,70 @@
+body{
+    padding:0;margin:0;
+    box-sizing: border-box;font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    position:relative;width:100%;display:flex;justify-content: center;align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position:absolute;top:0;width:100%;display:flex;justify-content: flex-end;
+    padding:20px;
+}
+section header ul{
+    display:flex;justify-content: center;align-items: center;top:0;
+}
+section header ul li{
+    list-style:none;margin-left:20px;
+}
+section header ul li a{
+    color:#111;text-decoration: none;font-size:13px;
+}
+section header ul li a button{
+    background:#4586ef;outline:none;border:none;padding:8px 14px;
+    color:#fff;font-size: 14px;font-weight:bold;border-radius:3px;
+    cursor:pointer;font-size:13px;
+}
+section .main{
+    width:580px;display:flex;flex-direction: column;justify-content: center;
+    align-items: center;
+}
+section .main .searchbox{
+    position:relative;width:100%;margin-top:20px;
+}
+section .main .searchbox .search{
+    width:100%;padding:20px;padding-left:45px;padding-right:60px;
+    border-radius:30px;border:solid 1px #ccc;height:1px;
+    outline:none;font-size: 17px;
+}
+section .main .searchbox .icons{
+    position:absolute;top:0;width:100%;display:flex;
+    padding:12px 20px;justify-content: space-between;align-items:center;
+    pointer-events: none;
+}
+section .main .buttons{
+    margin-top:20px;margin-left:227px;font-size:20px;
+}
+section .main .buttons .button{
+    margin:0 5px;padding:12px 20px;color:#555;border:none;
+    cursor:pointer;border-radius:3px solid transparent;outline:none;
+}
+section .main .buttons .button:hover{
+    border:1px solid #ccc;
+}
+section .main .lang{
+    margin-top:25px;margin-left:232px;
+}
+.footer{
+    position:absolute;bottom:0; left:0;width:100%;background:#f2f2f2;
+}
+.footer .row{
+    display:flex;justify-content: space-between;border-top: 1px solid rgba(0, 0, 0, 0.136);
+}
+.footer .row ul{
+    display:flex;
+}
+.footer .row ul li{
+    list-style:none;padding:20px;
+}
+.footer .row ul li a{
+    text-decoration:none;font-size:14px;color:#5f6368;}
